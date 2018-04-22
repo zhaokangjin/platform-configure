@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timezones>
+	<timezone>
+		<utc>UTC +12</utc>
+		<countrys>
+			<country>New Zealand</country>
+			<country>Fuji</country>
+		</countrys>
+		<GMT>11</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +11</utc>
+		<countrys>
+			<country>New Caledonia</country>
+		</countrys>
+		<GMT>10</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +10</utc>
+		<countrys>
+			<country>East Autralia</country>
+			<country>Sydney</country>
+			<country>Melbourne</country>
+		</countrys>
+		<GMT>9</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +9:30</utc>
+		<countrys>
+			<country>Central Australia</country>
+		</countrys>
+		<GMT>+8:30</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +9</utc>
+		<countrys>
+			<country>Japan</country>
+			<country>South Korea</country>
+			<country>East Indonesia</country>
+		</countrys>
+		<GMT>8</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +8</utc>
+		<countrys>
+			<country>West Australia</country>
+			<country>China</country>
+			<country>Hong Kong</country>
+			<country>Singapore</country>
+			<country>Central Indonesia</country>
+		</countrys>
+		<GMT>7</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +7</utc>
+		<countrys>
+			<country>West Indonesia</country>
+			<country>Thailand</country>
+			<country>Vietnam</country>
+			<country>Cambodia</country>
+		</countrys>
+		<GMT>6</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +6</utc>
+		<countrys>
+			<country>Kazakhstan</country>
+			<country>Bangladesh</country>
+			<country>East Indonesia</country>
+		</countrys>
+		<GMT>5</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +5:30</utc>
+		<countrys>
+			<country>India</country>
+			<country>Sri Lanka</country>
+		</countrys>
+		<GMT>+4:30</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +5</utc>
+		<countrys>
+			<country>Pakistan</country>
+			<country>Maldives</country>
+		</countrys>
+		<GMT>4</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +4</utc>
+		<countrys>
+			<country>United Arab Emirates</country>
+			<country>Mauritius</country>
+			<country>Oman</country>
+			<country>Georgia</country>
+		</countrys>
+		<GMT>3</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +3:30</utc>
+		<countrys>
+			<country>Iran</country>
+		</countrys>
+		<GMT>+2:30</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +3</utc>
+		<countrys>
+			<country>Moscow</country>
+			<country>St. Petersburg</country>
+			<country>Bahrein</country>
+			<country>Ethiopia</country>
+			<country>Iraq</country>
+			<country>Kenya</country>
+			<country>Madagascar</country>
+		</countrys>
+		<GMT>2</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +2</utc>
+		<countrys>
+			<country>Finland</country>
+			<country>Greece</country>
+			<country>Turkey</country>
+			<country>Ukraine</country>
+			<country>Belarus</country>
+			<country>Egypt</country>
+			<country>Israel</country>
+			<country>South-Africa</country>
+		</countrys>
+		<GMT>1</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC +1</utc>
+		<countrys>
+			<country>France</country>
+			<country>Germany</country>
+			<country>Italy</country>
+			<country>Spain</country>
+			<country>Netherlands</country>
+			<country>Sweden</country>
+			<country>Norway</country>
+			<country>Denmark</country>
+			<country>Poland</country>
+			<country>Czech Republic</country>
+			<country>Nigeria</country>
+			<country>Algeria</country>
+		</countrys>
+		<GMT>0</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC </utc>
+		<countrys>
+			<country>UK</country>
+			<country>Ireland</country>
+			<country>Portugal</country>
+			<country>Morocco</country>
+			<country>Ghana</country>
+			<country>Senegal</country>
+			<country>Ivory Coast</country>
+		</countrys>
+		<GMT>-1</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -1</utc>
+		<countrys>
+			<country>Azores</country>
+			<country>Cape Verde</country>
+		</countrys>
+		<GMT>-2</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -2</utc>
+		<countrys>
+			<country>South Georgia</country>
+		</countrys>
+		<GMT>-3</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -3</utc>
+		<countrys>
+			<country>Argentina</country>
+			<country>Brazil</country>
+			<country>French Guiana</country>
+			<country>Surinam</country>
+			<country>Uruguay</country>
+		</countrys>
+		<GMT>-4</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -4</utc>
+		<countrys>
+			<country>Labrador</country>
+			<country>West Brazil</country>
+			<country>Paraguay</country>
+			<country>Chile</country>
+		</countrys>
+		<GMT>-5</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -5</utc>
+		<countrys>
+			<country>Montreal</country>
+			<country>Toronto</country>
+			<country>New York</country>
+			<country>Florida</country>
+			<country>Cuba</country>
+			<country>Colombia</country>
+		</countrys>
+		<GMT>-6</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -6</utc>
+		<countrys>
+			<country>Chicago</country>
+			<country>Dallas</country>
+			<country>Winnipeg</country>
+			<country>Mexico</country>
+			<country>Costa Rica</country>
+		</countrys>
+		<GMT>-7</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -7</utc>
+		<countrys>
+			<country>Denver</country>
+			<country>Edmonton</country>
+		</countrys>
+		<GMT>-8</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -8</utc>
+		<countrys>
+			<country>British Columbia</country>
+			<country>California</country>
+			<country>Seatle</country>
+			<country>San Francisco</country>
+			<country>Los Angeles</country>
+		</countrys>
+		<GMT>-9</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -9</utc>
+		<countrys>
+			<country>Alaska</country>
+		</countrys>
+		<GMT>-10</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -10</utc>
+		<countrys>
+			<country>French Polynesia</country>
+		</countrys>
+		<GMT>-11</GMT>
+	</timezone>
+	<timezone>
+		<utc>UTC -11</utc>
+		<countrys>
+			<country>American Samoa</country>
+			<country>Samoa</country>
+		</countrys>
+		<GMT>-12</GMT>
+	</timezone>
+</timezones>
