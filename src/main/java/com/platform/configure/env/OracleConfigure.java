@@ -7,6 +7,7 @@ public class OracleConfigure implements Serializable {
 	private String driverName;
 	private String ip;
 	private String port;
+	private String databaseName;
 	private String userName;
 	private String password;
 
@@ -48,5 +49,13 @@ public class OracleConfigure implements Serializable {
 
 	public void setDriverName(String driverName) {
 		this.driverName = driverName;
+	}
+
+	public String getDatabaseName() {
+		return databaseName;
+	}
+
+	public void setDatabaseName(String databaseName) {
+		this.databaseName = databaseName;
 	}
 }
