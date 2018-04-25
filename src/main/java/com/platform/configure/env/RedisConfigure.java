@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class RedisConfigure implements Serializable {
 	private static final long serialVersionUID = 5863424476478833531L;
+	private String driverName;
 	private String ip;
 	private String port;
 	private String userName;
@@ -39,5 +40,13 @@ public class RedisConfigure implements Serializable {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getDriverName() {
+		return driverName;
+	}
+
+	public void setDriverName(String driverName) {
+		this.driverName = driverName;
 	}
 }

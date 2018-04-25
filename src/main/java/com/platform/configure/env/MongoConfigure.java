@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class MongoConfigure implements Serializable {
 	private static final long serialVersionUID = -1801453383433096717L;
+	private String driverName;
 	private String ip;
 	private String port;
 	private String userName;
@@ -39,5 +40,13 @@ public class MongoConfigure implements Serializable {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getDriverName() {
+		return driverName;
+	}
+
+	public void setDriverName(String driverName) {
+		this.driverName = driverName;
 	}
 }

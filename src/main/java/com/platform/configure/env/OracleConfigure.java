@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class OracleConfigure implements Serializable {
 	private static final long serialVersionUID = 8654817900202921839L;
+	private String driverName;
 	private String ip;
 	private String port;
 	private String userName;
@@ -39,5 +40,13 @@ public class OracleConfigure implements Serializable {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getDriverName() {
+		return driverName;
+	}
+
+	public void setDriverName(String driverName) {
+		this.driverName = driverName;
 	}
 }

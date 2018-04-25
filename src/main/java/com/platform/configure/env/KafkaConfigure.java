@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class KafkaConfigure implements Serializable {
 	private static final long serialVersionUID = -7648583539676814031L;
+	private String driverName;
 	private String ip;
 	private String port;
 	private String userName;
@@ -39,6 +40,14 @@ public class KafkaConfigure implements Serializable {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getDriverName() {
+		return driverName;
+	}
+
+	public void setDriverName(String driverName) {
+		this.driverName = driverName;
 	}
 
 }
