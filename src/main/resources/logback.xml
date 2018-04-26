@@ -18,7 +18,7 @@
 	<!-- 文件日志：输出全部日志到文件 -->
 	<appender name="ALL_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<FileNamePattern>${LOG_HOME}/${MODULE}/info_log._%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+			<FileNamePattern>${LOG_HOME}/all/%d{yyyyMMdd}/all.%d{yyyyMMdd}_%i.log</FileNamePattern>
 			<maxHistory>7</maxHistory>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
 				<maxFileSize>${FILE_SIZE}</maxFileSize>
@@ -33,9 +33,9 @@
 		<append>true</append>
 	</appender>
 	<!-- 错误日志：用于将错误日志输出到独立文件 -->
-	<appender name="ERROR_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+	<appender name="INFO_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<FileNamePattern>${LOG_HOME}/${MODULE}/erro_log._%d{yyyy-MM-dd}.%i.log </FileNamePattern>
+			<FileNamePattern>${LOG_HOME}/info/%d{yyyyMMdd}/info.%d{yyyyMMdd}_%i.log </FileNamePattern>
 			<maxHistory>7</maxHistory>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
 				<maxFileSize>${FILE_SIZE}</maxFileSize>
@@ -51,14 +51,32 @@
 		</filter>
 		<append>true</append>
 	</appender>
-	<!-- 使用异步来记录其他信息 -->
-	<!-- <appender name="FILE_ASYNC_OTHER" class="ch.qos.logback.classic.AsyncAppender"> <discardingThreshold>0</discardingThreshold> <queueSize>256</queueSize> <includeCallerData>true</includeCallerData> <appender-ref ref="ERROR_LOG" /> </appender> <appender name="FILE_ASYNC" class="ch.qos.logback.classic.AsyncAppender"> <discardingThreshold>0</discardingThreshold> <queueSize>256</queueSize> <includeCallerData>true</includeCallerData> <appender-ref ref="ALL_LOG" /> </appender> -->
+	<!-- 错误日志：用于将错误日志输出到独立文件 -->
+	<appender name="ERROR_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<FileNamePattern>${LOG_HOME}/error/%d{yyyyMMdd}/error.%d{yyyyMMdd}_%i.log </FileNamePattern>
+			<maxHistory>7</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>${FILE_SIZE}</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder" immediateFlush="true">
+			<pattern>${ENCODER_PATTERN}</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>ERROR</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+		<append>true</append>
+	</appender>
 	<root>
 		<level value="DEBUG" />
 	</root>
 	<logger name="com.platform" addtivity="false">
 		<appender-ref ref="CONSOLE" level="INFO" />
 		<appender-ref ref="ALL_LOG" level="INFO" />
+		<appender-ref ref="INFO_LOG" level="INFO" />
 		<appender-ref ref="ERROR_LOG" level="ERROR" />
 	</logger>
 </configuration>
